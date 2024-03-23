@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@900&family=PT+Sans+Narrow&display=swap");
+
+*,
+::before,
+::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.custom-bg
+{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+}
+@media screen and(max-width:576px) {
+    .custom-bg
+    {
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%; 
+    width: 100%;
+    }
+    
+}
+.cor
+{
+    background-color:#effd5f;
+    text-align: right;
+    margin-right:20%;
+    padding-top:5%;
+    width:15%;
+    position: relative;
+    left:80%;
+}
+@media (max-width: 576px) {
+    .cor {
+      background-color:#effd5f;
+      text-align: center;
+      margin: 0 auto;
+      width:30%;
+      left:30%;
+    }
+  }
+
+.main
+{
+   position: relative;
+   right:30%;
+   color: white;
+}
+.img
+{
+    position:absolute;
+    top:8%;
+    left:8%;
+    height:15%;
+    width:10%; 
+}
+.logo2
+{
+position: absolute;
+top:40%;
+left:38%;
+height:50%;
+width:20%;
+}
+@media screen and(max-width:576px) {
+    .logo2
+    {
+        position: absolute;
+    top: 41%;
+    left: 50%;
+    height: 50%;
+    width:55%;
+    }
+    
+}
+.innovation
+{
+    position:absolute;
+    top:75%;
+    width: 90%;
+    color: white;
+}
+@media screen and (max-width:576px) {
+    .in
+    {
+      letter-spacing: 33px;
+      font-size: 22px;
+    }
+    
+}
+.in
+{
+    letter-spacing:40px;
+}
+.our
+{
+    letter-spacing: 13px;
+}
+.we
+{
+   color:#effd5f;
+   font-size:150;
+   font-weight:bold;
+}
+hr{
+    border:2;
+    height: 2px;
+    width: 80%;
+    margin: 20px auto;
+    color:black;
+  }
+  .plan
+  {
+    color:skyblue;
+    position: relative;
+  }
+  .Plan2
+  {
+    position:absolute;
+    bottom:-75% ;
+    right:15%;
+    
+  }
+  .nb
+  {
+    position: relative;
+    left:-2%;
+  }
+  .text
+  {
+    position: relative;
+    left: -1%;
+  }
+  .foot
+  {
+    column-count: 2;
+    column-gap: 20px;
+  }
